@@ -893,3 +893,15 @@ border-radius: 50%;
 	-webkit-transform: scale(1);
 	transform: scale(1);
 }
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+
+.no-trans::-webkit-scrollbar {
+	display: none;
+}
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+.no-trans {
+	scrollbar-width: none;  /* Firefox */
+	-ms-overflow-style: none;  /* IE and Edge */
+}
